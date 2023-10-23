@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import '../assets/searchbar.css'
 import Card from "../components/card";
 
-const url = 'http://www.omdbapi.com/?apikey=b435b0b3'
+const url = 'https://www.omdbapi.com/?apikey=b435b0b3'
 
 function Home() {
     // const search = 'superman'
