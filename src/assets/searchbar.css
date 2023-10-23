@@ -1,0 +1,41 @@
+.Searchbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#searchbox{
+    padding:15px;
+    width: 500px;
+    border-radius: 20px;
+}
+#searchbox::-webkit-search-clear-button {
+    appearance: none;
+    display: none;
+  }
+.searchicon{
+    width: 30px;
+    margin-left: -40px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.container .card{
+    width: 250px;
+    height: 500px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+}
+.card img{
+    width: 250px;
+    border-radius: 15px 15px 0px 0px;
+}
+.card p{
+    font-size: 14px;
+}

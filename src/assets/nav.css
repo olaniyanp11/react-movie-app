@@ -1,0 +1,13 @@
+
+.links{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    height: 7vh;
+    background-color: black;
+    align-items: center;
+}
